@@ -1,9 +1,0 @@
-version: "3"
-services:
-  car_price_app:
-    build: .
-    ports:
-      - "8080:8080"
-    volumes:
-      - .:/app
-    restart: always
